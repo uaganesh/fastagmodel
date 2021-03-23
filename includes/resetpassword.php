@@ -53,9 +53,9 @@ $message .='<p> Here is your password rest link : </br></br>';
 
 $message .='<br><br><a href="' .$url.  '">'.$url.'</a></p></br><p style="color:#660033 ">© FASTag 2020(Arun Baby & Team)</p></body></html>';
 
-$headers="From: FASTag Support <adarsh.shankar9@gmail.com>\r\n";
+$headers="From: FASTag Support\r\n";
 $headers .= "Content-type: text/html\r\n";
-$headers .="Reply-to: adarsh.shankar9@gmail.com \r\n ";
+$headers .="Reply-to: \r\n ";
 
 
 mail($to,$subject,$message,$headers);
